@@ -22,7 +22,8 @@ class ChoiceButton extends StatelessWidget {
                     decoration: new BoxDecoration(
                       border: new Border.all(
                         color: Colors.white,width: 5.0
-                      )
+                      ),
+                      borderRadius: new BorderRadius.circular(15)
                     ),
                     child: new Text( _answer==true ? "True" :"False",
                       style: new TextStyle(color: Colors.white,fontSize: 20),
